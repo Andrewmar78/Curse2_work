@@ -1,0 +1,726 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 600-334-225
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 18:53:55] "GET /users/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 18:53:55] "[33mGET /users/css/styles.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 18:53:55] "[33mGET /users/img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 18:53:55] "[33mGET /users/img/post5.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 18:53:55] "[33mGET /users/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 18:53:55] "[33mGET /users/img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 18:53:55] "[33mGET /users/img/post6.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 18:53:55] "[33mGET /users/img/ava2.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 18:53:55] "[33mGET /users/img/post7.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 18:54:32] "GET /users/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 18:54:32] "[33mGET /users/css/styles.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 18:54:32] "[33mGET /users/img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 18:54:32] "[33mGET /users/img/post5.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 18:54:32] "[33mGET /users/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 18:54:32] "[33mGET /users/img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 18:55:11] "GET /users/leo HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 18:55:11] "[33mGET /users/css/styles.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 18:55:11] "[33mGET /users/img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 18:55:11] "[33mGET /users/img/post5.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 18:55:11] "[33mGET /users/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 18:55:11] "[33mGET /users/img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:04:45] "GET /users/leO HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:04:45] "[33mGET /users/css/styles.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:04:45] "[33mGET /users/img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:04:45] "[33mGET /users/img/post5.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:04:45] "[33mGET /users/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:04:45] "[33mGET /users/img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:05:12] "GET /users/larry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:05:12] "[33mGET /users/css/styles.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:05:12] "[33mGET /users/img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:05:12] "[33mGET /users/img/post5.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:05:12] "[33mGET /users/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:05:12] "[33mGET /users/img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:05:29] "GET /users/larrY HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:05:29] "[33mGET /users/css/styles.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:05:29] "[33mGET /users/img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:05:29] "[33mGET /users/img/post5.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:05:29] "[33mGET /users/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:05:29] "[33mGET /users/img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:07:07] "GET /static/css/styles.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:07:07] "GET /static/img/bookmark.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:07:07] "GET /static/img/post1.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:07:07] "GET /static/img/eye.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:07:07] "GET /static/img/ava1.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:07:10] "[33mGET /posts/css/styles.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:07:10] "[33mGET /posts/img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:07:10] "[33mGET /posts/img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:07:10] "[33mGET /posts/img/post1.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:07:10] "[33mGET /posts/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:07:11] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:07:11] "[33mGET /posts/css/styles.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:07:11] "[33mGET /posts/img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:07:11] "[33mGET /posts/img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:07:11] "[33mGET /posts/img/post1.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:07:11] "[33mGET /posts/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:07:17] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:07:17] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:07:19] "[35m[1mGET /search?s=тАР HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:07:19] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:07:19] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:07:19] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:32:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:32:58] "GET /static/img/bookmark.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:32:58] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:32:58] "[36mGET /static/img/ava1.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:32:58] "[36mGET /static/img/post1.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:32:58] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:53:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:53:04] "[33mGET /['https://randus.org/avatars/w/c1819dbdffffff18.png',%20'https://randus.org/avatars/m/00183c7e3c382499.png',%20'https://randus.org/avatars/m/383c7e7e3c3c1818.png',%20'https://randus.org/avatars/m/81898dbdbdffdb18.png',%20'https://randus.org/avatars/w/c1819dbdffffff18.png',%20'https://randus.org/avatars/m/00183c7e3c382499.png',%20'https://randus.org/avatars/m/383c7e7e3c3c1818.png',%20'https://randus.org/avatars/m/81898dbdbdffdb18.png'] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:53:04] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:53:04] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:53:04] "[36mGET /static/img/post1.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:53:04] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:54:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:54:42] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:54:42] "[33mGET /['https://randus.org/avatars/w/c1819dbdffffff18.png', HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:54:42] "[36mGET /static/img/post1.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:54:42] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:54:42] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:55:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:55:03] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:55:03] "[36mGET /static/img/post1.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:55:03] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:55:03] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:59:53] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:59:53] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:59:53] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:59:53] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:59:53] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:59:53] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:59:54] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:59:54] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:59:54] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 19:59:54] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:00:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:00:41] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:00:41] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:00:41] "[36mGET /static/img/post1.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:00:41] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:01:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:01:38] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:01:38] "[33mGET /alt=%22%22 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:01:38] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:01:38] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:01:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:01:40] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:01:40] "[33mGET /alt=%22%22 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:01:40] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:01:40] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:01:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:01:53] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:01:53] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:01:53] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:01:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:01:58] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:01:58] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:01:58] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:08:35] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:08:35] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:08:35] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:08:35] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:08:35] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:10:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:10:11] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:10:11] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:10:11] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:18:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:18:24] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:18:24] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:18:24] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:31:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:31:30] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:31:30] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:31:30] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:31:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:31:33] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:31:33] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:31:33] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:38:56] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:38:56] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:38:56] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:38:56] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:38:56] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:46:42] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:46:42] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:46:42] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:46:42] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:47:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:47:38] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:47:38] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:47:38] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:47:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:47:57] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:47:57] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:47:57] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:49:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:49:13] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:49:13] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:49:13] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:53:24] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:53:24] "[33mGET /posts/css/styles.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:53:24] "[33mGET /posts/img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:53:24] "[33mGET /posts/img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:53:24] "[33mGET /posts/img/post1.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 20:53:24] "[33mGET /posts/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:03:54] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:03:54] "[33mGET /posts/css/styles.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:03:54] "[33mGET /posts/img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:03:54] "[33mGET /posts/img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:03:54] "[33mGET /posts/img/post1.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:03:54] "[33mGET /posts/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:06:49] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:06:49] "[33mGET /posts/css/styles.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:06:49] "[33mGET /posts/img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:06:49] "[33mGET /posts/img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:06:49] "[33mGET /posts/img/post1.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:06:49] "[33mGET /posts/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:06:50] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:06:50] "[33mGET /posts/css/styles.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:06:50] "[33mGET /posts/img/post1.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:06:50] "[33mGET /posts/img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:06:50] "[33mGET /posts/img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:06:50] "[33mGET /posts/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:17:54] "[35m[1mGET /posts/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:17:54] "GET /posts/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:17:54] "GET /posts/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:17:54] "GET /posts/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:17:54] "GET /posts/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:17:54] "GET /posts/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:19:55] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:19:55] "[33mGET /posts/css/styles.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:19:55] "[33mGET /posts/img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:19:55] "[33mGET /posts/img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:19:55] "[33mGET /posts/img/post1.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:19:55] "[33mGET /posts/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:26:31] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:26:31] "[33mGET /posts/css/styles.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:26:31] "[33mGET /posts/img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:26:31] "[33mGET /posts/img/post1.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:26:31] "[33mGET /posts/img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:26:31] "[33mGET /posts/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:31:45] "[35m[1mGET /posts/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:31:45] "GET /posts/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:31:45] "GET /posts/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:31:45] "GET /posts/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:31:46] "GET /posts/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:32:25] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:32:25] "[33mGET /posts/css/styles.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:32:25] "[33mGET /posts/img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:32:25] "[33mGET /posts/img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:32:25] "[33mGET /posts/img/post1.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:32:25] "[33mGET /posts/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:34:56] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:34:56] "[33mGET /posts/css/styles.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:34:56] "[33mGET /posts/img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:34:56] "[33mGET /posts/img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:34:56] "[33mGET /posts/img/post1.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [06/Apr/2022 21:34:56] "[33mGET /posts/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:25:33] "GET /static/img/bookmark.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:25:33] "GET /static/css/styles.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:25:33] "GET /static/img/eye.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:25:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:25:36] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:25:36] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:25:36] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:25:36] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:25:36] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:25:39] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:25:39] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:25:39] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:25:39] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:26:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:26:48] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:26:48] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:26:48] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:28:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:28:36] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:28:36] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:28:36] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:33:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:33:08] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:33:08] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:33:08] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:33:08] "[33mGET /alt=%22%22 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:33:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:33:10] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:33:10] "[33mGET /alt=%22%22 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:33:10] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:33:10] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:36:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:36:22] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:36:22] "[33mGET /['https://images.unsplash.com/photo-1525351326368-efbb5cb6814d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=580&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:36:22] "[33mGET /['https://images.unsplash.com/photo-1592660716763-09efba6db4e3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=580&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:36:22] "[33mGET /['https://images.unsplash.com/photo-1581235854265-41981cb85c88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:36:22] "[33mGET /['https://images.unsplash.com/photo-1612450632008-22c2a5437dc1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=580&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:36:22] "[33mGET /['https://images.unsplash.com/photo-1570427968906-5a309bfd7de3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:36:22] "[33mGET /['https://images.unsplash.com/photo-1482112252853-a77ee8d9a8cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=867&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:36:22] "[33mGET /['https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:36:22] "[33mGET /['https://images.unsplash.com/photo-1494952200529-3ceb822a75e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:36:22] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:36:22] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:38:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:38:50] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:38:50] "[33mGET /['https://images.unsplash.com/photo-1525351326368-efbb5cb6814d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=580&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:38:50] "[33mGET /['https://images.unsplash.com/photo-1592660716763-09efba6db4e3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=580&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:38:50] "[33mGET /['https://images.unsplash.com/photo-1612450632008-22c2a5437dc1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=580&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:38:50] "[33mGET /['https://images.unsplash.com/photo-1581235854265-41981cb85c88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:38:50] "[33mGET /['https://images.unsplash.com/photo-1570427968906-5a309bfd7de3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:38:50] "[33mGET /['https://images.unsplash.com/photo-1482112252853-a77ee8d9a8cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=867&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:38:50] "[33mGET /['https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:38:50] "[33mGET /['https://images.unsplash.com/photo-1494952200529-3ceb822a75e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:38:50] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:38:50] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:38:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:38:52] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:38:52] "[33mGET /['https://images.unsplash.com/photo-1525351326368-efbb5cb6814d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=580&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:38:52] "[33mGET /['https://images.unsplash.com/photo-1592660716763-09efba6db4e3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=580&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:38:52] "[33mGET /['https://images.unsplash.com/photo-1612450632008-22c2a5437dc1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=580&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:38:52] "[33mGET /['https://images.unsplash.com/photo-1581235854265-41981cb85c88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:38:52] "[33mGET /['https://images.unsplash.com/photo-1570427968906-5a309bfd7de3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:38:52] "[33mGET /['https://images.unsplash.com/photo-1482112252853-a77ee8d9a8cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=867&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:38:52] "[33mGET /['https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:38:52] "[33mGET /['https://images.unsplash.com/photo-1494952200529-3ceb822a75e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:38:52] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:38:52] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:39:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:39:37] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:39:37] "[33mGET /['https://images.unsplash.com/photo-1525351326368-efbb5cb6814d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=580&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:39:37] "[33mGET /['https://images.unsplash.com/photo-1592660716763-09efba6db4e3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=580&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:39:37] "[33mGET /['https://images.unsplash.com/photo-1612450632008-22c2a5437dc1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=580&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:39:37] "[33mGET /['https://images.unsplash.com/photo-1581235854265-41981cb85c88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:39:37] "[33mGET /['https://images.unsplash.com/photo-1570427968906-5a309bfd7de3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:39:37] "[33mGET /['https://images.unsplash.com/photo-1482112252853-a77ee8d9a8cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=867&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:39:37] "[33mGET /['https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:39:37] "[33mGET /['https://images.unsplash.com/photo-1494952200529-3ceb822a75e2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:39:37] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:39:37] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:40:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:40:36] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:40:36] "[33mGET /['https://images.unsplash.com/photo-1525351326368-efbb5cb6814d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=580&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:40:36] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:40:36] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:40:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:40:37] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:40:37] "[33mGET /['https://images.unsplash.com/photo-1525351326368-efbb5cb6814d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=580&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:40:37] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:40:37] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:40:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:40:38] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:40:38] "[33mGET /['https://images.unsplash.com/photo-1525351326368-efbb5cb6814d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=580&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:40:38] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:40:38] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:41:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:41:05] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:41:05] "[33mGET /['https://images.unsplash.com/photo-1525351326368-efbb5cb6814d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=580&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:41:05] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:41:05] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:41:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:41:06] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:41:06] "[33mGET /['https://images.unsplash.com/photo-1525351326368-efbb5cb6814d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=580&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:41:06] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:41:06] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:41:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:41:31] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:41:31] "[33mGET /['https://images.unsplash.com/photo-1525351326368-efbb5cb6814d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=580&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:41:31] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:41:31] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:41:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:41:43] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:41:43] "[33mGET /['https://images.unsplash.com/photo-1525351326368-efbb5cb6814d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=580&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:41:43] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:41:43] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:42:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:42:05] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:42:05] "[33mGET /['https://images.unsplash.com/photo-1525351326368-efbb5cb6814d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=580&q=80%27] HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:42:05] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:42:05] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:46:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:46:10] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:46:11] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:46:11] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:47:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:47:50] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:47:50] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:47:50] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:47:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:47:52] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:47:52] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:47:52] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:48:47] "[33mGET /posts/css/styles.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:48:47] "[33mGET /posts/img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:48:47] "[33mGET /posts/img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:48:47] "[33mGET /posts/img/post1.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:48:47] "[33mGET /posts/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:48:49] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:48:50] "[33mGET /posts/css/styles.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:48:50] "[33mGET /posts/img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:48:50] "[33mGET /posts/img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:48:50] "[33mGET /posts/img/post1.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:48:50] "[33mGET /posts/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:50:24] "[33mGET /users/css/styles.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:50:24] "[33mGET /users/img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:50:24] "[33mGET /users/img/post5.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:50:24] "[33mGET /users/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:50:24] "[33mGET /users/img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:50:27] "GET /users/larrY HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:50:27] "[33mGET /users/css/styles.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:50:27] "[33mGET /users/img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:50:27] "[33mGET /users/img/post5.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:50:27] "[33mGET /users/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:50:27] "[33mGET /users/img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:51:33] "[35m[1mGET /search?s=тАР HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:51:33] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:51:33] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:51:33] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:51:33] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:51:37] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:51:37] "[33mGET /posts/css/styles.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:51:37] "[33mGET /posts/img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:51:37] "[33mGET /posts/img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:51:37] "[33mGET /posts/img/post1.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:51:37] "[33mGET /posts/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:52:33] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:52:33] "[33mGET /posts/css/styles.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:52:33] "[33mGET /posts/img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:52:33] "[33mGET /posts/img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:52:33] "[33mGET /posts/img/post1.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:52:33] "[33mGET /posts/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:55:48] "[35m[1mGET /posts/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:55:49] "GET /posts/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:55:49] "GET /posts/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:55:49] "GET /posts/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:55:49] "GET /posts/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:55:49] "GET /posts/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:56:27] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:56:27] "[33mGET /posts/css/styles.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:56:27] "[33mGET /posts/img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:56:27] "[33mGET /posts/img/post1.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:56:27] "[33mGET /posts/img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 19:56:27] "[33mGET /posts/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:02:44] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:02:44] "[33mGET /posts/css/styles.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:02:44] "[33mGET /posts/img/post1.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:02:44] "[33mGET /posts/img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:02:44] "[33mGET /posts/img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:02:44] "[33mGET /posts/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:02:54] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:02:54] "[33mGET /posts/css/styles.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:02:54] "[33mGET /posts/img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:02:54] "[33mGET /posts/img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:02:54] "[33mGET /posts/img/post1.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:02:54] "[33mGET /posts/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:02:59] "[35m[1mGET /posts/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:03:00] "GET /posts/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:03:00] "GET /posts/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:03:00] "GET /posts/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:03:00] "GET /posts/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:03:06] "[35m[1mGET /posts/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:03:06] "GET /posts/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:03:06] "GET /posts/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:03:06] "GET /posts/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:03:47] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:03:47] "[33mGET /posts/css/styles.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:03:47] "[33mGET /posts/img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:03:47] "[33mGET /posts/img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:03:47] "[33mGET /posts/img/post1.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:03:47] "[33mGET /posts/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:05:52] "[35m[1mGET /posts/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:05:52] "GET /posts/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:05:52] "GET /posts/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:05:52] "GET /posts/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:05:52] "GET /posts/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:06:12] "[35m[1mGET /posts/1 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:06:12] "GET /posts/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:06:12] "GET /posts/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:06:12] "GET /posts/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:06:52] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:06:52] "[33mGET /posts/css/styles.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:06:52] "[33mGET /posts/img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:06:52] "[33mGET /posts/img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:06:52] "[33mGET /posts/img/post1.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:06:52] "[33mGET /posts/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/tests/app_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/tests/app_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/tests/app_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/tests/app_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/tests/app_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/tests/app_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/tests/app_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:56:57] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:56:57] "[33mGET /posts/css/styles.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:56:57] "[33mGET /posts/img/ava1.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:56:57] "[33mGET /posts/img/bookmark.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:56:57] "[33mGET /posts/img/post1.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:56:57] "[33mGET /posts/img/eye.png HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:57:34] "[35m[1mGET /search?s=тАР HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:57:34] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:57:34] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Apr/2022 20:57:34] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/tests/app_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/tests/app_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/tests/app_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/tests/app_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/tests/app_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/tests/app_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Detected change in '/home/andrew/PycharmProjects/pythonProject/Curse_2/Curse2_work/tests/app_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-166-936
