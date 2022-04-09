@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SKYPROGRAM {{"Все посты"}}</title>
+  <title>SKYPROGRAM</title>
   <link href="css/styles.min.css" rel="stylesheet">
 </head>
 
@@ -22,22 +22,21 @@
       </a>
     </div>
   </header>
-{% for poster in all_posters_list %}
   <main class="container">
     <section class="items">
       <div class="items__item item">
         <div class="item__top">
-          <a href="/users/{{poster.poster_name}}" class="item__head">
+          <a href="/user-feed.html" class="item__head">
             <div class="item__ava-wrap">
-              <img src="{{poster.poster_avatar}}" alt="" class="item__ava" width="47">
+              <img src="img/ava1.png" alt="" class="item__ava" width="47">
             </div>
-            <span class="item__username">{{poster.poster_name}}</span>
+            <span class="item__username">Johnny</span>
           </a>
         </div>
         <a href="/post.html" class="item__post-link">
-          <img src="{{poster.pic}}" alt="" width="348" class="item__post-img">
+          <img src="img/post1.jpg" alt="" width="348" class="item__post-img">
         </a>
-        <p class="item__descr">{{poster.content}}</p>
+        <p class="item__descr">Текст описания коротки...</p>
         <div class="item__post-info">
           <div class="item__counter">
             <img src="img/eye.png" alt="" class="item__counter-icon" width="26">
@@ -51,7 +50,56 @@
           </button>
         </div>
       </div>
-      {% endfor %}
+      <div class="items__item item">
+        <div class="item__top">
+          <a href="/user-feed.html" class="item__head">
+            <div class="item__ava-wrap">
+              <img src="img/ava2.png" alt="" class="item__ava" width="47">
+            </div>
+            <span class="item__username">Username</span>
+          </a>
+        </div>
+        <a href="/post.html" class="item__post-link">
+          <img src="img/post2.jpg" alt="" width="348" class="item__post-img">
+        </a>
+        <p class="item__descr">Текст описания коротки...</p>
+        <div class="item__post-info">
+          <div class="item__counter">
+            <img src="img/eye.png" alt="" class="item__counter-icon" width="26">
+            <span class="item__counter-text">1023</span>
+          </div>
+        </div>
+        <div class="item__post-bottom">
+          <a href="/post.html" class="item__btn-more">Подробнее</a>
+          <button type="button" class="item__bookmark-btn active">
+            <img src="img/bookmark.png" alt="" class="item__bookmark-icon" width="24">
+          </button>
+        </div>
+      </div>
+      <div class="items__item item">
+        <div class="item__top">
+          <a href="/user-feed.html" class="item__head">
+            <div class="item__ava-wrap">
+              <img src="img/ava2.png" alt="" class="item__ava" width="47">
+            </div>
+            <span class="item__username">Username</span>
+          </a>
+        </div>
+        <a href="/post.html" class="item__post-link">
+          <img src="img/post3.jpg" alt="" width="348" class="item__post-img">
+        </a>
+        <p class="item__descr">Текст описания коротки...</p>
+        <div class="item__post-info">
+          <div class="item__counter">
+            <img src="img/eye.png" alt="" class="item__counter-icon" width="26">
+            <span class="item__counter-text">1023</span>
+          </div>
+        </div>
+        <div class="item__post-bottom">
+          <a href="/post.html" class="item__btn-more">Подробнее</a>
+          <button type="button" class="item__bookmark-btn">
+            <img src="img/bookmark.png" alt="" class="item__bookmark-icon" width="24">
+          </button>
         </div>
       </div>
     </section>
