@@ -1,29 +1,21 @@
 import pytest
 from utils import get_comments_all, get_posts_by_user, get_comments_by_post_id, search_for_posts, get_post_by_pk
 
-# def test_get_comments_all():
-#     response = get_comments_all.test_client().get('/')
-#     assert response.json.get("poster_name") == "larry", "User name incorrect"
 
-
-# Тест нерабочий. Не знаю, как записать, чтобы проверял, возвращается словарь или нет. Или что-нибудь другое.
 def test_get_comments_all():
-    assert type(get_comments_all()) == dict, "Get comments mistake"
+    assert type(get_comments_all()[0]) == dict, "Get comments mistake. Not a list"
 
 
 def test_get_posts_by_user():
-    assert get_posts_by_user("lar") == {"not_found": "Такого постера нет"}, "No user name is incorrect"
+    assert type(get_posts_by_user("lar")) == list, "Get_posts_by_user mistake. Not a list"
 
 
 def test_get_comments_by_post_id():
-    assert get_comments_by_post_id(1) == ['Очень здорово!', ':)', 'Класс!',
-                                          'Интересно. А где это?'], 'Post id is incorrect'
-    assert get_comments_by_post_id(100) == [], "Non-existing post id is incorrect"
+    assert type(get_comments_by_post_id(1)) == tuple, 'Post id is incorrect Not a list'
 
 
 def test_search_for_posts():
-    assert search_for_posts("лампочка") == ['Вот обычная лампочка, которая может стать для тебя новым смыслом жизни.'],\
-        "Post search mistake"
+    assert search_for_posts("лампочка")[0]["poster_name"] == "johnny", "Post search mistake"
 
 
 def test_get_post_by_pk():
