@@ -36,21 +36,30 @@ def search_page():
 def user_posts_page(username):
     """Вьюшка постов заданного пользователя"""
     user_posts = get_posts_by_user(username)
-    posts_length = len(user_posts)
-    return render_template("user-feed.html", username=username.title(), user_posts=user_posts, posts_length=posts_length)
+    posts_length = len(user_posts[3])
+    return render_template("user-feed.html", username=username.title(), user_posts=user_posts[3],
+                           user_avatar=user_posts[1], post_pic=user_posts[2], posts_length=posts_length)
+    # return render_template("user-feed.html", username=username.title(), user_posts=user_posts, posts_length=posts_length)
 
 
 @app.route("/api/posts")
 def get_all_posts_json():
-    # API для возврата всех постов в JSON.
+    """API для возврата всех постов в JSON"""
     data = get_posts_all()
     return jsonify(data)
 
 
 @app.route("/api/posts/<pk>")
 def get_one_post_json(pk):
-    # API для возврата одного поста по его pk в JSON
+    """API для возврата одного поста по его pk в JSON"""
     data = get_post_by_pk(pk)
+    return jsonify(data)
+
+
+@app.route("/api/users/<username>")
+def get_user_data_json(username):
+    """API для возврата ... в JSON"""
+    data = get_posts_by_user(username)
     return jsonify(data)
 
 

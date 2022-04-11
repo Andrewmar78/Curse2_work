@@ -29,14 +29,16 @@
         <div class="item__top">
           <a href="/users/{{username}}" class="item__head">
             <div class="item__ava-wrap">
-              <img src="img/ava1.png" alt="" class="item__ava" width="47">
+              <img src="{{user_avatar}}" alt="" class="item__ava" width="47">
+<!--              <img src="img/ava1.png" alt="" class="item__ava" width="47">-->
             </div>
             <span class="item__username">Блоггер {{username}}, найдено {{posts_length}} постов</span>
           </a>
         {% for post in user_posts %}
         </div>
         <a href="/post.html" class="item__post-link">
-          <img src="img/post5.jpg" alt="" width="348" class="item__post-img">
+          <img src="{{post_pic}}" alt="" width="348" class="item__post-img">
+<!--          <img src="img/post5.jpg" alt="" width="348" class="item__post-img">-->
         </a>
         <p class="item__descr"><a href="#" class="item__tag">#food</a> {{post}}</p>
         <div class="item__post-info">
