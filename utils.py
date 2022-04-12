@@ -36,8 +36,8 @@ def get_posts_by_user(poster_name):
                 user_all_posts_pic.append(poster["pic"])
             if poster["poster_avatar"] not in user_avatar:
                 user_avatar.append(poster["poster_avatar"])
-    user_all_posts_data = [poster_name, user_avatar, user_all_posts_pic, user_all_posts]
-    # print(user_all_posts_data)
+    user_all_posts_data = [poster_name, user_avatar[0], user_all_posts_pic, user_all_posts]
+    print(user_all_posts_data)
     return user_all_posts_data
 
 
@@ -81,7 +81,7 @@ def get_post_by_pk(pk):
 get_comments_all()
 get_posts_all()
 # get_poster_and_posts_all()
-# get_posts_by_user("JohNny")
+get_posts_by_user("JohNny")
 # get_post_by_pk(2)
 # get_comments_by_post_id(1)
 # search_for_posts("тАР")
