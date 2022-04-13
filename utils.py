@@ -62,7 +62,9 @@ def search_for_posts(query):
     posts_list = []
     for item in __all_posts_datas:
         if query.lower() in item["content"].lower() and len(posts_list) <= 9:
-            posts_list.append({"poster_name": item["poster_name"], "content": item["content"]})
+            # posts_list.append({"poster_name": item["poster_name"], "content": item["content"]})
+            posts_list.append({"poster_name": item["poster_name"], "poster_avatar": item["poster_avatar"],
+                               "pic": item["pic"], "content": item["content"]})
     print("Посты по слову:", posts_list)
     return posts_list
 

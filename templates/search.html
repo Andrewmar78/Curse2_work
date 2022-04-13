@@ -36,13 +36,13 @@
         <div class="item__top">
           <a href="/users/{{item.poster_name}}" class="item__head">
             <div class="item__ava-wrap">
-              <img src="img/ava1.png" alt="" class="item__ava" width="47">
+              <img src="{{item.poster_avatar}}" alt="" class="item__ava" width="47">
             </div>
             <span class="item__username">{{item.poster_name}}</span>
           </a>
         </div>
         <a href="/post.html" class="item__post-link">
-          <img src="img/post5.jpg" alt="" width="348" class="item__post-img">
+          <img src="{{item.pic}}" alt="" width="348" class="item__post-img">
         </a>
         <p class="item__descr"><a href="/tag.html" class="item__tag">#food</a> {{item.content}}</p>
         <div class="item__post-info">
