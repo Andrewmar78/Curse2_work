@@ -48,7 +48,7 @@ def get_comments_by_post_id(post_id):
 
     for item in __all_posts_datas:
         if item["pk"] == post_id:
-            poster_and_post = item["poster_name"], item["content"]
+            poster_and_post = item["poster_name"], item["content"], item["poster_avatar"], item["pic"]
     for item in __all_comments_datas:
         if item["post_id"] == post_id:
             comments_to_post.append({"commenter_name": item["commenter_name"], "comments": item["comment"]})
@@ -81,7 +81,7 @@ def get_post_by_pk(pk):
 get_comments_all()
 get_posts_all()
 # get_poster_and_posts_all()
-get_posts_by_user("JohNny")
+# get_posts_by_user("JohNny")
 # get_post_by_pk(2)
-# get_comments_by_post_id(1)
+get_comments_by_post_id(1)
 # search_for_posts("тАР")

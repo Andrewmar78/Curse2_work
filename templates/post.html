@@ -29,7 +29,7 @@
         <div class="item__top">
           <a href="/users/{{post_info.0}}" class="item__head">
             <div class="item__ava-wrap">
-              <img src="img/ava1.png" alt="" class="item__ava" width="47">
+              <img src="{{post_info.2}}" alt="" class="item__ava" width="47">
             </div>
             <span class="item__username">Блоггер {{post_info.0}}</span>
           </a>
@@ -38,7 +38,7 @@
           </button>
         </div>
         <a href="" class="item__post-link">
-          <img src="img/post1.jpg" alt="" width="348" class="item__post-img">
+          <img src="{{post_info.3}}" alt="" width="348" class="item__post-img">
         </a>
         <div class="item__descr">
           <p class="item__text">
@@ -56,17 +56,10 @@
             </div>
           </div>
           {% for comment in comments_info %}
-
           <div class="item__comments">
             <p class="item__comment">
               <b>{{comment.commenter_name}}: </b>{{comment.comments}}
             </p>
-<!--            <p class="item__comment">-->
-<!--              <b>user 2:</b> еще один комментарий-->
-<!--            </p>-->
-<!--            <p class="item__comment">-->
-<!--              <b>user 3:</b> и&nbsp;какой-то коммент еще-->
-<!--            </p>-->
           </div>
           {% endfor %}
         </div>
