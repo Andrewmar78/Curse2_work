@@ -31,8 +31,9 @@
             <div class="item__ava-wrap">
               <img src="{{user_posts.0.poster_avatar}}" alt="" class="item__ava" width="47">
             </div>
-            <span class="item__username">Блоггер {{user_posts.0.poster_name}}, найдено {{posts_length|length}} постов</span>
+            <span class="item__username">Блоггер {{user_posts.0.poster_name}}</span>
           </a>
+        <p class="item__tag">Найдено {{user_posts|length}} постов </p>
         {% for post in user_posts %}
         </div>
         <a href="/post.html" class="item__post-link">
