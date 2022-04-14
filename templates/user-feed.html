@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SKYPROGRAM Посты {{username}}</title>
+  <title>SKYPROGRAM Посты {{user_posts.0.poster_name}}</title>
   <link href="/static/css/styles.min.css" rel="stylesheet">
 </head>
 
@@ -27,22 +27,18 @@
     <section class="items">
       <div class="items__item item">
         <div class="item__top">
-          <a href="/users/{{username}}" class="item__head">
+          <a href="/users/{{user_posts.0.poster_name}}" class="item__head">
             <div class="item__ava-wrap">
-              <img src="{{user_avatar}}" alt="" class="item__ava" width="47">
-<!--              <img src="img/ava1.png" alt="" class="item__ava" width="47">-->
+              <img src="{{user_posts.0.poster_avatar}}" alt="" class="item__ava" width="47">
             </div>
-            <span class="item__username">Блоггер {{username}}, найдено {{posts_length}} постов</span>
+            <span class="item__username">Блоггер {{user_posts.0.poster_name}}, найдено {{posts_length|length}} постов</span>
           </a>
-        {% for post in post_pic %}
+        {% for post in user_posts %}
         </div>
         <a href="/post.html" class="item__post-link">
-          <img src="{{post}}" alt="" width="348" class="item__post-img">
-<!--          <img src="img/post5.jpg" alt="" width="348" class="item__post-img">-->
+          <img src="{{post.pic}}" alt="" width="348" class="item__post-img">
         </a>
-        {% endfor %}
-        {% for post in user_posts %}
-        <p class="item__descr"><a href="#" class="item__tag">#food</a> {{post}}</p>
+        <p class="item__descr"><a href="#" class="item__tag">#food</a> {{post.content}}</p>
         <div class="item__post-info">
           <div class="item__counter">
             <img src="img/eye.png" alt="" class="item__counter-icon" width="26">

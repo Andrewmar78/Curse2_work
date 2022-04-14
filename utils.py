@@ -26,19 +26,13 @@ def get_posts_all():
 def get_posts_by_user(poster_name):
     """Возвращение постов пользователя"""
     user_all_posts = []
-    user_avatar = []
-    user_all_posts_pic = []
+
     for poster in __all_posts_datas:
         if poster["poster_name"].lower() == poster_name.lower():
             # print(f'Юзер {poster["poster_name"]}\n {poster["poster_avatar"]}\n {poster["pic"]}\n {poster["content"]}\n')
-            user_all_posts.append(poster["content"])
-            if poster["pic"] not in user_all_posts_pic:
-                user_all_posts_pic.append(poster["pic"])
-            if poster["poster_avatar"] not in user_avatar:
-                user_avatar.append(poster["poster_avatar"])
-    user_all_posts_data = [poster_name, user_avatar[0], user_all_posts_pic, user_all_posts]
-    print(user_all_posts_data)
-    return user_all_posts_data
+            user_all_posts.append(poster)
+    print(user_all_posts)
+    return user_all_posts
 
 
 def get_comments_by_post_id(post_id):
@@ -85,5 +79,5 @@ get_posts_all()
 # get_poster_and_posts_all()
 # get_posts_by_user("JohNny")
 # get_post_by_pk(2)
-get_comments_by_post_id(1)
+# get_comments_by_post_id(1)
 # search_for_posts("тАР")

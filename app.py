@@ -36,10 +36,7 @@ def search_page():
 def user_posts_page(username):
     """Вьюшка постов заданного пользователя"""
     user_posts = get_posts_by_user(username)
-    posts_length = len(user_posts[3])
-    return render_template("user-feed.html", username=username.title(), user_posts=user_posts[3],
-                           user_avatar=user_posts[1], post_pic=user_posts[2], posts_length=posts_length)
-    # return render_template("user-feed.html", username=username.title(), user_posts=user_posts, posts_length=posts_length)
+    return render_template("user-feed.html", user_posts=user_posts)
 
 
 @app.route("/api/posts")
