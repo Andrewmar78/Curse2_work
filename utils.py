@@ -32,6 +32,8 @@ def get_posts_by_user(poster_name):
             # print(f'Юзер {poster["poster_name"]}\n {poster["poster_avatar"]}\n {poster["pic"]}\n {poster["content"]}\n')
             user_all_posts.append(poster)
     print(user_all_posts)
+    if not user_all_posts:
+        user_all_posts = [{"not_found": "Такого постера нет"}]
     return user_all_posts
 
 
