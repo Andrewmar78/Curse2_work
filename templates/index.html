@@ -22,8 +22,8 @@
       </a>
     </div>
   </header>
-{% for poster in all_posters_list %}
   <main class="container">
+    {% for poster in all_posters_list %}
     <section class="items">
       <div class="items__item item">
         <div class="item__top">
@@ -34,18 +34,18 @@
             <span class="item__username">{{poster.poster_name}}</span>
           </a>
         </div>
-        <a href="/post.html" class="item__post-link">
+        <a href="/posts/{{poster.pk}}" class="item__post-link">
           <img src="{{poster.pic}}" alt="" width="348" class="item__post-img">
         </a>
         <p class="item__descr">{{poster.content}}</p>
         <div class="item__post-info">
           <div class="item__counter">
             <img src="img/eye.png" alt="" class="item__counter-icon" width="26">
-            <span class="item__counter-text">212</span>
+            <span class="item__counter-text">{{poster.views_count}}</span>
           </div>
         </div>
         <div class="item__post-bottom">
-          <a href="/post.html" class="item__btn-more">Подробнее</a>
+          <a href="/posts/{{poster.pk}}" class="item__btn-more">Подробнее</a>
           <button type="button" class="item__bookmark-btn">
             <img src="img/bookmark.png" alt="" class="item__bookmark-icon" width="24">
           </button>

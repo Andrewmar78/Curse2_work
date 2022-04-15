@@ -1,6 +1,6 @@
 from flask import Flask, request, render_template, jsonify
 from utils import get_comments_by_post_id, search_for_posts, get_posts_by_user,\
-    get_posts_all, get_post_by_pk
+    get_posts_all, get_post_by_pk, get_post_by_post_id
 
 import logging
 logging.basicConfig(filename="basic.log", level=logging.INFO)
@@ -18,9 +18,10 @@ def all_post_main_page():
 @app.route("/posts/<int:post_id>")
 def post_id_comments_page(post_id):
     """Вьюшка комментариев к посту"""
-    post_and_comments = get_comments_by_post_id(post_id)
-    post_info = post_and_comments[0]
-    comments_info = post_and_comments[1]
+    comments = get_comments_by_post_id(post_id)
+    post = get_post_by_post_id(post_id)
+    post_info = post[0]
+    comments_info = comments
     return render_template("post.html", post_info=post_info, comments_info=comments_info)
 
 
@@ -29,7 +30,7 @@ def search_page():
     """Вьюшка поиска по тексту в постах"""
     query = request.args["s"]
     posts = search_for_posts(query)
-    return render_template("search.html", posts=posts, posts_length=len(posts))
+    return render_template("search.html", posts=posts, posts_length=len(posts), query=query)
 
 
 @app.route("/users/<username>")
@@ -55,7 +56,7 @@ def get_one_post_json(pk):
 
 @app.route("/api/users/<username>")
 def get_user_data_json(username):
-    """API для возврата ... в JSON"""
+    """API для возврата всех постов пользователя в JSON"""
     data = get_posts_by_user(username)
     return jsonify(data)
 
