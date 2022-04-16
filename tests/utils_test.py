@@ -11,7 +11,7 @@ def test_get_posts_by_user():
 
 
 def test_get_comments_by_post_id():
-    assert type(get_comments_by_post_id(1)) == tuple, 'Post id is incorrect Not a list'
+    assert type(get_comments_by_post_id(1)) == list, 'Post id is incorrect Not a list'
 
 
 def test_search_for_posts():
