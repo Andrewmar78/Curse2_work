@@ -1,6 +1,6 @@
 from flask import Flask, request, render_template, jsonify
 from utils import get_comments_by_post_id, search_for_posts, get_posts_by_user,\
-    get_posts_all, get_post_by_pk, get_post_by_post_id
+    get_posts_all, get_post_by_pk, get_post_by_post_id, get_posts_by_food
 
 import logging
 logging.basicConfig(filename="basic.log", level=logging.INFO)
@@ -38,6 +38,14 @@ def user_posts_page(username):
     """Вьюшка постов заданного пользователя"""
     user_posts = get_posts_by_user(username)
     return render_template("user-feed.html", user_posts=user_posts)
+
+
+# Не доделано
+@app.route("/tag/<tagname>")
+def food_page(tagname):
+    """Вьюшка постов с тэгами"""
+    user_posts = get_posts_by_food()
+    return render_template("tag.html", user_posts=user_posts)
 
 
 @app.route("/api/posts")
