@@ -25,7 +25,7 @@ def get_posts_by_user(poster_name):
         if poster["poster_name"].lower() == poster_name.lower():
             # print(f'Юзер {poster["poster_name"]}\n {poster["poster_avatar"]}\n {poster["pic"]}\n {poster["content"]}\n')
             user_all_posts.append(poster)
-    print(user_all_posts)
+    # print(user_all_posts)
     if not user_all_posts:
         user_all_posts = [{"not_found": "Такого постера нет"}]
     return user_all_posts
@@ -39,7 +39,7 @@ def get_posts_by_food():
         if "#" in poster["content"]:
             print(f'Тэг {poster["poster_name"]}\n {poster["poster_avatar"]}\n {poster["pic"]}\n {poster["content"]}\n')
             all_posts_by_tag.append(poster)
-    print(all_posts_by_tag)
+    # print(all_posts_by_tag)
     if not all_posts_by_tag:
         all_posts_by_tag = [{"not_found": "Таких постов нет"}]
     return all_posts_by_tag

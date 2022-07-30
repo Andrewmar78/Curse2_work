@@ -1,0 +1,14 @@
+name: CI
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: clone code
+        uses: action/checkout@v2
+      - name: docker build
+        run: docker build -t ${{ secret.DOCKER_USERNAME }}/insta:$GITHUB_REF_NAME-GITHUB_RUN_ID .
+      - name: docker login
+        run: docker login -u ${{ secret.DOCKER_USERNAME }} -p ${{ secret.DOCKER_TOKEN }}
+      - name: docker push
+        run: docker push ${{ secret.DOCKER_USERNAME }}/insta:$GITHUB_REF_NAME-GITHUB_RUN_ID

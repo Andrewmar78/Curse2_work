@@ -6,6 +6,7 @@ import logging
 logging.basicConfig(filename="basic.log", level=logging.INFO)
 
 app = Flask(__name__)
+app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://db_user:db_password"
 
 
 @app.route("/")
