@@ -1,12 +1,14 @@
 version: "3.9"
-web:
-  image: 725311/insta code:code
-  build: .
-  ports:
-    - "80:8080"
-  restart: always
-  depends on:
-    - db
+
+services:
+  web:
+    image: 725311/insta:code
+    build: .
+    ports:
+      - "80:8080"
+    restart: always
+    depends_on:
+      - db
   db:
     image: postgres
     environment:
