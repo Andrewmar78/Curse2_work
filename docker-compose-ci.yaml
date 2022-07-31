@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  web:
+    image: 725311/insta:$GITHUB_REF_NAME-$GITHUB_RUN_ID
+    ports:
+      - "80:8080"
+    restart: always
+    depends_on:
+      - db
+  db:
+    image: postgres
+    environment:
+      POSTGRES_USER: $DB_USER
+      POSTGRES_PASSWORD: $DB_PASSWORD
+      POSTGRES_DB: $DB_NAME
