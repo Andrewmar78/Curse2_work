@@ -39,4 +39,4 @@ jobs:
           password: "deploy_password"
           script: |
             cd flask_app_ci
-            echo $ deploy_password | sudo -S docker-compose up -d            
+            echo $ "deploy_password" | sudo -S docker-compose up -d            
