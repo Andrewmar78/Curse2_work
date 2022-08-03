@@ -15,10 +15,6 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: build_and_push
-#    env:
-#      DB_USER: ${{ secrets.DB_USER }}
-#      DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
-#      DB_NAME: ${{ secrets.DB_NAME }}
     steps:
       - name: clone code
         uses: actions/checkout@v2
@@ -26,13 +22,9 @@ jobs:
         run: |
           mkdir deploy
           cat docker-compose-ci.yaml | envsubst > deploy/docker-compose.yaml
-#          cat docker-ci-config.py | envsubst > deploy/docker_config.py
       - name: copy files to server
         uses: appleboy/scp-action@master
         with:
-#          host: ${{ secrets.HOST }}
-#          username: $ {{ secrets.USERNAME }}
-#          password: $ {{ secrets.PASSWORD }}
           host: "amarkaryan.ga"
           username: "deploy"
           password: "deploy_password"
@@ -42,13 +34,9 @@ jobs:
       - name: deploy app
         uses: appleboy/ssh-action@master
         with:
-#          host: ${{ secrets.HOST }}
-#          username: ${{ secrets.USERNAME }}
-#          password: ${{ secrets.PASSWORD }}
           host: "amarkaryan.ga"
           username: "deploy"
           password: "deploy_password"
           script: |
             cd flask_app_ci
-            echo ${{ secrets.PASSWORD }} | sudo -S docker-compose up -d            
-
+            echo ${{ secrets.deploy_password }} | sudo -S docker-compose up -d            
