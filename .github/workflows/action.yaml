@@ -28,7 +28,7 @@ jobs:
           host: "amarkaryan.ga"
           username: "deploy"
           password: "deploy_password"
-          source: "deploy/docker-compose.yaml" #deploy/docker_config.py
+          source: "deploy/docker-compose.yaml"
           target: "flask_app_ci"
           strip_components: 1
       - name: deploy app
@@ -39,4 +39,4 @@ jobs:
           password: "deploy_password"
           script: |
             cd flask_app_ci
-            echo ${{ secrets.deploy_password }} | sudo -S docker-compose up -d            
+            echo ${{ deploy_password }} | sudo -S docker-compose up -d            
