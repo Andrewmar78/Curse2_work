@@ -38,5 +38,5 @@ jobs:
           username: "deploy"
           password: "deploy_password"
           script: |
-            sudo docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_TOKEN }}
+            echo ${{ secrets.DOCKER_TOKEN }} | docker login -u ${{ secrets.DOCKER_USERNAME }} --password-stdin
             sudo -S docker-compose up -d
