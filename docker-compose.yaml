@@ -5,7 +5,7 @@ services:
     image: 725311/insta:code
     build: .
     ports:
-      - "80:80"
+      - "25000:80"
     restart: always
     depends_on:
       - db
