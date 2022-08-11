@@ -4,7 +4,7 @@ services:
   web:
     image: 725311/insta:$GITHUB_REF_NAME-$GITHUB_RUN_ID
     ports:
-      - "25000:80"
+      - "5000:80"
     restart: always
     depends_on:
       - db
