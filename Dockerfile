@@ -2,11 +2,11 @@
 FROM python:3.10-slim
 ENV HOME /app
 WORKDIR HOME
-COPY requirements.txt .
+COPY requirements_old1.txt .
 COPY utils.py .
 COPY configure.py .
 COPY entrypoint.sh .
-RUN python3 -m pip install -r requirements.txt
+RUN python3 -m pip install -r requirements_old1.txt
 COPY app.py .
 
 # Копирование миграций при наличии
