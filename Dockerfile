@@ -1,12 +1,12 @@
 # Базовый образ
-FROM python:3.10-slim
+FROM python:3.7-slim
 ENV HOME /app
 WORKDIR HOME
-COPY requirements_old1.txt .
+COPY requirements.txt .
 COPY utils.py .
 COPY configure.py .
 COPY entrypoint.sh .
-RUN python3 -m pip install -r requirements_old1.txt
+RUN python3 -m pip install -r requirements.txt
 COPY app.py .
 
 # Копирование миграций при наличии
