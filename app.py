@@ -2,8 +2,8 @@ from flask import Flask, request, render_template, jsonify
 from utils import get_comments_by_post_id, search_for_posts, get_posts_by_user,\
     get_posts_all, get_post_by_pk, get_post_by_post_id, get_posts_by_food
 
-import logging
-logging.basicConfig(filename="basic.log", level=logging.INFO)
+# import logging
+# logging.basicConfig(filename="basic.log", level=logging.INFO)
 
 app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://db_user:db_password"
