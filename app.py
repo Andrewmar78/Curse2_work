@@ -71,6 +71,5 @@ def get_user_data_json(username):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
-    # app.run(host='127.0.0.1', port='25000')
-
+    # app.run(debug=True)
+    app.run(host='127.0.0.1', port=80)
