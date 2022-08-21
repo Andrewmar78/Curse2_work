@@ -5,7 +5,7 @@ services:
     image: 725311/insta:code
     build: .
     ports:
-      - "80:80"
+      - 80:80
     restart: always
     depends_on:
       - db
@@ -15,4 +15,3 @@ services:
       POSTGRES_USER: db_user
       POSTGRES_PASSWORD: db_password
       POSTGRES_DB: db_name
-      
